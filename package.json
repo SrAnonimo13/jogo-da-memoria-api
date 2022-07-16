@@ -4,9 +4,9 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "build": "tsc",
+    "dev-build": "tsc",
     "start": "node .",
-    "dev": "pnpm build && pnpm start"
+    "dev": "pnpm dev-build && pnpm start"
   },
   "keywords": [],
   "author": "SrAnonimo",
