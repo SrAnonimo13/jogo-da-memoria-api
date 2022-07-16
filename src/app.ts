@@ -5,7 +5,7 @@ import router from "./router";
 
 config();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const { DEV: isDev } = process.env;
 
 const app = express();
